@@ -1,0 +1,14 @@
+Start Conusl Agent:
+consul agent -server -bootstrap-expect=1 -data-dir="C:\Veera\MicroServices\consul_1.4.2_windows_amd64\consul-data" -http-port=8500 -bind=178.18.223.113 -ui
+
+Start Mongo DB:
+mongod.exe --dbpath C:\Veera\MicroServices\mangodbs
+
+hystrix:
+localhost:9091/hystrix
+
+Consul:
+localhost:8500
+
+Eureka:
+http://localhost:8761/
